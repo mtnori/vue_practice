@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Vue.js example</title>
+  </head>
+  <body>
+    <div id="app-3">
+      <span v-if="seen">現在、私が見えている</span>
+    </div>
+    <script>
+      var app3 = new Vue({
+        el: '#app-3',
+        data: {
+          seen: true
+        }
+      })
+    </script>
+  </body>
+</html>
